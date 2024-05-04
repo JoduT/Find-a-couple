@@ -322,7 +322,7 @@ def win_screen():
     elif now_level == '4_5' and score == 2:
         score += 1
         secret_level['command'] = lambda x=2, y=10: secret_level_scene(x, y)
-        second_level['image'] = fr_4_p
+        secret_level['image'] = fr_4_p
         menu_button['image'] = gold_photo
     win_label.grid(row=1, column=2, columnspan=5)
     menu_button.grid(row=3, column=4, pady=2, padx=4)
